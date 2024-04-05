@@ -1,7 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap') */
 
 body {    
-    overflow: hidden;
     margin:0;
     font-family: Roboto, sans-serif;
 
@@ -102,7 +101,8 @@ p {
     padding:0px 150px;
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:center;
+    gap: 50px;
     align-items: center;
 }
 
@@ -117,7 +117,8 @@ p {
 .subtextbox {
     padding:0px 150px;
     display:flex;
-    justify-content: space-between;
+    justify-content:center;
+    gap: 50px;
     align-items: center;
 }
 
