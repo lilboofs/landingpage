@@ -105,3 +105,55 @@ p {
     justify-content: space-between;
     align-items: center;
 }
+
+.box-text {
+    font-size: 12px;
+    display: flex;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.subtextbox {
+    padding:0px 150px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.midder {
+    background: #b2b5b9;
+    color: rgb(55, 55, 55);
+    padding: 100px 150px;
+    font-style: italic;
+}
+
+.author {
+    display:flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.footy{
+    border-radius: 25px;
+    background: greenyellow;
+    padding: 20px;
+    width: 800px;
+    height: 150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.actualfooter {
+    padding: 10px;
+    display:flex;
+    justify-content: center; 
+}
